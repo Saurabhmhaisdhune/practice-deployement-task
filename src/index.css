@@ -1,0 +1,130 @@
+body{
+  margin: 0px;
+}
+.navbar{
+  background-color: rgb(57, 130, 255);
+  color: white;
+  font-family: cursive;
+  box-shadow: 0px 0px 20px 0px rgb(100, 100, 100);
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  justify-items: center;
+}
+.title{
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px 550px 5px 500px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px #080808;
+}
+.title-div{
+  margin-top: 14px;
+  justify-content: center;
+  justify-items: center;
+  text-align:center;
+}
+.home-contact {
+  list-style: none;
+  position: absolute;
+  right: 300px;
+  top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+.card{
+  width: 350px;
+  box-shadow: 10px 10px 20px 10px rgb(169, 169, 169);
+  margin: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.product-image{
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+}
+.flex-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.more-details{
+
+  border-radius: 3px;
+  margin: 10px 0px 10px 0px;
+}
+.more-details:hover{
+  cursor: pointer;
+  color: black;
+}
+.product-name{
+  font-size: larger;
+}
+.model-name{
+  font-size: larger;
+}
+.buttons{
+  background-color: rgb(70, 159, 255);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+.buttons:hover{
+  cursor: pointer;
+  color: white;
+}
+.contact-input{
+  width: 450px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin:10px;
+  font-size: medium;
+}
+.contact-input:focus{
+  background-color: rgb(255, 249, 242);
+}
+.main-div{
+  background-color: rgb(193, 193, 193);
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+.confirm-button{
+  width: 450px;
+  margin: 10px 10px 10px 10px;
+  background-color:  rgb(70, 159, 255);
+  padding: 8px;
+  font-size: large;
+  border-radius: 5px;
+  color: white;
+}
+.confirm-button:hover{
+  cursor: pointer;
+  color: black;
+}
+.cancel-button{
+  width: 450px;
+  margin: 10px 10px 10px 10px;
+  background-color:  rgb(255, 70, 70);
+  padding: 8px;
+  font-size: large;
+  border-radius: 5px;
+  color: white;
+}
+.cancel-button:hover{
+  cursor: pointer;
+  color: black;
+}
+.input-title{
+  color: white;
+  font-size: 35px;
+  font-family: cursive;
+  padding: 20px 0px 20px 0px;
+}
